@@ -1,9 +1,4 @@
-@font-face {
-    font-family: Lato;
-    src: url("https://fonts.googleapis.com/css?family=Lato:300,400,900");
-}
-
-/*font-family: 'Lato', sans-serif;*/
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
 
 * {
     margin: 0;
@@ -18,10 +13,15 @@ body {
     margin: 0 auto;
 }
 
+h1, h2, h3 {
+    font-family: 'Permanent Marker', cursive;
+}
+
 h1 {
     font-size: 50px;
     padding: 10px 0 0;
     text-align: center;
+    text-transform: uppercase;
 }
 
 h2 {
@@ -30,6 +30,7 @@ h2 {
     text-align: center;
     border-bottom: 3px solid #416371;
     padding: 0 0 20px 0;
+    text-transform: uppercase;
 }
 
 h3 {
@@ -42,6 +43,14 @@ h3 {
 p {
     line-height: 20px;
     padding: 0 0 5px 0;
+    text-align: justify;
+}
+
+p + p {
+    margin-top: 15px;
+}
+
+figure + p {
     color: #94c258;
 }
 
@@ -60,6 +69,52 @@ nav {
     padding: 0 5px;
 }
 
-nav>ul>li>a {
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    margin: 5px 2px;
+    padding: 7px 10px 4px;
+    font-size: 30px;
+    text-transform: uppercase;
     color: #ffffff;
+    display: inline-block;
+}
+
+a[title="sweet tabs"] {
+    text-transform: capitalize;
+    color: #8EC45B;
+}
+
+nav ul li:first-of-type > a {
+    text-transform: lowercase;
+    color: #7CB3E9;
+}
+
+nav, article, nav ul li a, figure {
+    border-radius: 10px;
+}
+
+article {
+    height: 390px;
+    background-color: #213E4A;
+    padding: 20px;
+    margin: 0 0 10px;
+}
+
+figure {
+    border: 3px solid #142830;
+    float: right;
+    height: 300px;
+    width: 500px;
+    margin-left: 15px;
+}
+
+footer {
+    border-top: 3px solid #142830;
+    text-align: center;
+    padding-top: 15px;
+    margin-bottom: 30px;
+    font-size: 20px;
 }
