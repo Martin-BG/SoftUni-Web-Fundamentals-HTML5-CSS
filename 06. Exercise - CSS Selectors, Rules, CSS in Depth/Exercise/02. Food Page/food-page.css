@@ -1,0 +1,66 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+}
+
+header {
+    background: url("images/header.jpg") no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+
+header h1 {
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    padding: 2.5em;
+}
+
+.content {
+    width: 60%;
+    float: left;
+    padding-left: 6%;
+}
+
+article {
+    margin-bottom: 2em;
+}
+
+article p {
+    text-align: justify;
+}
+
+p.date {
+    margin: 0.1em 0;
+}
+
+article > h1 {
+    margin-bottom: 0.3em;
+}
+
+article button {
+    background: none;
+    border: #ec5353 solid 1px;
+    color: #ec5353;
+    border-radius: 3em;
+    padding: 0.5em 1.5em;
+}
+
+article button:hover {
+    color: #ffffff;
+    background-color: #ec5353;
+}
+
+img {
+    width: 100%;
+}
+
+aside {
+    float: right;
+    width: 25%;
+    padding: 0 6% 0 3%;
+}
+
+aside p {
+    margin-bottom: 3em;
+}
