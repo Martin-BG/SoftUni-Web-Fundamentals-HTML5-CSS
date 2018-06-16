@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Search Job</title>
+    <link rel="stylesheet" href="search-job.css">
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+            <li><a href="#">Search Business</a></li>
+            <li><a href="#">Business Categories</a></li>
+            <li><a href="#">Recent Locations</a></li>
+            <li><a href="#">Agents Located</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <section>
+        <form>
+            <label>
+                Business Name
+                <input name="name" type="text" placeholder="enter a name">
+            </label>
+            <label>
+                Country
+                <input name="country" type="text" placeholder="search by country">
+            </label>
+            <label>
+                City / State
+                <input name="city" type="text" placeholder="search by city or state">
+            </label>
+            <label>
+                Zip / Postal Code
+                <input type="text" name="zip-code" placeholder="enter a postal code">
+            </label>
+            <label>
+                Employers
+                <input type="number" name="employees" placeholder="1000-5000" min="1000" max="5000" step="1">
+            </label>
+            <label>
+                Startup Date
+                <input type="date" name="start-date">
+            </label>
+            <label>
+                Job Opportunity
+                <input type="text" name="job-opportunity" placeholder="any">
+            </label>
+            <button type="submit" formaction="#">let's find your job</button>
+        </form>
+    </section>
+</main>
+</body>
+</html>
+
