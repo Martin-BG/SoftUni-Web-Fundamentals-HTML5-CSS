@@ -6,6 +6,8 @@
 *.7z
 *.rar
 
+text.txt
+
 ### IntelliJ IDEA ###
 **/out/
 **/target/
