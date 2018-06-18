@@ -112,10 +112,29 @@ i {
     border-right: none;
 }
 
-/*TODO: @media all and (max-width: 800px) {*/
+@media all and (max-width: 800px) {
+    form {
+        max-width: calc(100% - 40px);
+    }
+}
 
-/*}*/
+@media all and (max-width: 660px) {
+    .left-contact, .right-contact {
+        width: 100%;
+        padding: 0;
+    }
+}
 
-/*TODO: @media all and (max-width: 660px) {*/
+@media all and (max-width: 600px) {
+    .right-contact input {
+        width: calc(100% - 70px);
+    }
 
-/*}*/
+    textarea {
+        width: calc(100% - 100px);
+    }
+
+    .button-contact {
+        width: calc(100% - 35px);
+    }
+}
