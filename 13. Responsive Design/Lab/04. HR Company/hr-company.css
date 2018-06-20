@@ -114,6 +114,46 @@ a:hover#menu-icon {
     justify-content: space-between;
 }
 
-/*TODO: @media all and (max-width: 880px) {*/
+@media all and (max-width: 880px) {
+    .business {
+        display: block;
+    }
 
-/*}*/
+    .learn-more {
+        display: block;
+        margin-bottom: 25px;
+    }
+
+    .business article {
+        text-align: center;
+    }
+
+    main h2 {
+        font-size: 1.4em;
+    }
+
+    .top-list {
+        display: none;
+        height: auto;
+    }
+
+    article p {
+        max-width: 100%;
+    }
+
+    #menu-icon {
+        display: inline-block;
+    }
+
+    nav li {
+        text-align: center;
+        width: 100%;
+        padding: 10px 0;
+        margin: 0;
+        background: #f6f6f6;
+    }
+
+    nav:hover ul.top-list {
+        display: block;
+    }
+}
