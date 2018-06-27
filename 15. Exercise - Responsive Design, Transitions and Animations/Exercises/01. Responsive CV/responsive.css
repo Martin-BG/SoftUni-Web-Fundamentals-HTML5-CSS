@@ -1,11 +1,51 @@
 @media screen and (max-width: 740px) {
-    /*TODO*/
+    #info {
+        float: none;
+    }
+
+    #info, #photo, h2 {
+        text-align: center;
+    }
+
+    #photo {
+        float: none;
+        width: 100%
+    }
+
+    #wrapper {
+        padding: 20px 15px;
+    }
+
+    p {
+        padding: 0;
+    }
+
+    h1 {
+        font-size: 4.5em;
+    }
+
+    h3 {
+        font-size: 2.2em;
+    }
 }
 
 @media screen and (max-width: 570px) {
-    /*TODO*/
+    #skills-left {
+        margin-right: 0;
+    }
+
+    #skills-left, #skills-right {
+        margin-top: 15px;
+    }
+
+    ul li {
+        padding-left: 16px;
+        background: url(images/bullet.png) -3px 5px no-repeat;
+        display: inline-block;
+        width: 140px;
+    }
 }
 
 @media screen and (max-width: 480px) {
-    /*TODO*/
+
 }

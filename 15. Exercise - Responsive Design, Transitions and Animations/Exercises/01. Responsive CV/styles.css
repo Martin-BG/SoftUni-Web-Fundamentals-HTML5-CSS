@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    background: #f2f2f2 url('img/bg-tile.png');
+    background: #f2f2f2 url('images/bg-tile.png');
     font-size: 62.5%;
     padding-bottom: 65px;
 }
@@ -71,7 +71,7 @@ ul li {
     padding-left: 45px;
     list-style-type: none;
     vertical-align: top;
-    background: url('img/bullet.png') 25px 5px no-repeat;
+    background: url('images/bullet.png') 25px 5px no-repeat;
     margin-bottom: 5px;
     font-family: "Balthazar", "Droid Serif", serif;
     color: #666;
