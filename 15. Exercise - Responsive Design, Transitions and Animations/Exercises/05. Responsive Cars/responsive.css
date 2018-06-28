@@ -1,9 +1,9 @@
 @media only screen and (max-width: 980px) {
-
-    .zerogrid {
-        width: 99.6%;
+    * {
+        box-sizing: border-box;
     }
 
+    .zerogrid,
     nav .wrap-nav,
     .menu ul,
     .zerogrid .col-1-3,
@@ -52,10 +52,6 @@
 }
 
 @media only screen and (max-width: 466px) {
-    .zerogrid {
-        width: 98%;
-    }
-
     header #logo,
     .menu {
         display: none;
