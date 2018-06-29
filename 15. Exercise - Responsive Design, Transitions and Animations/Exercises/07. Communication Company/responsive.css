@@ -1,1 +1,105 @@
-/*TODO*/
+@media screen and (max-width: 1200px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    .wrapper {
+        width: 100%;
+        height: auto;
+    }
+
+    .content-wrap {
+        flex-direction: column;
+    }
+
+    .content-wrap.two-col .col {
+        margin-right: 0;
+    }
+
+    .main-head {
+        padding: unset;
+    }
+
+    .bordered,
+    .sponsors,
+    .woodsmoke,
+    .hero-head,
+    .main-foot {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .main-foot nav,
+    .main-foot address {
+        width: 50%;
+        flex: unset;
+        margin-right: 0;
+    }
+
+    .main-foot .wrapper {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    .hero-head {
+        background: #171720 none;
+        min-height: unset;
+        display: grid;
+    }
+
+    .hero-head h1 {
+        text-align: center;
+        width: 80%;
+        float: none;
+        margin: 0 auto;
+        font-size: 2em;
+        line-height: unset;
+        font-weight: bold;
+        padding-bottom: 30px;
+        padding-top: 60px;
+    }
+
+    .hero-head .goal {
+        max-width: 100%;
+        text-align: center;
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: bold;
+        padding-bottom: 40px;
+    }
+
+    .main-nav {
+        display: none;
+    }
+
+    .content-wrap.two-col .col,
+    .content.woodsmoke {
+        text-align: center;
+    }
+
+    .button {
+        width: 100%;
+    }
+
+    .button-list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sponsorship {
+        padding-bottom: 100px;
+    }
+
+    .main-foot nav,
+    .main-foot address {
+        width: 100%;
+        text-align: center;
+    }
+
+    .main-foot .bottom .copyright {
+        float: unset;
+        text-align: center;
+    }
+}
