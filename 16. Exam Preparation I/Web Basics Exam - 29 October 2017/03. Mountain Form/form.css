@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Francois+One|Source+Sans+Pro:300');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+body {
+    background-color: #F4FCFF;
+}
+
+main {
+    min-width: 500px;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+span.icon {
+    color: #002C3C;
+    position: absolute;
+    padding: 5px;
+    margin-top: 4px;
+    font-size: 1.3em;
+    border-right: 1px solid #BCDAE5;
+    width: 46px;
+    height: 35px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+main > h1 {
+    color: #002C3C;
+    font-family: "Francois One", sans-serif;
+    font-weight: bold;
+    font-size: 4em;
+    border-bottom: #31D47D 6px solid;
+    width: 410px;
+    margin: 0 auto 50px;
+    padding-top: 50px;
+}
+
+span.required {
+    color: #F48688;
+    position: absolute;
+    margin-left: -15px;
+}
+
+span.description {
+    color: #C0CBD2;
+}
+
+div.form-label {
+    font-size: 1.3em;
+    padding-bottom: 10px;
+}
+
+div.form-field {
+    padding-bottom: 30px;
+}
+
+main > form {
+    margin: 0 auto;
+    width: 410px;
+}
+
+input {
+    width: 100%;
+    border: 1px solid #BCDAE5;
+    padding: 10px 5px 10px 60px;
+    box-sizing: border-box;
+    font-size: 1.2em;
+    color: #BABABB;
+    border-radius: 2px;
+    background-color: white;
+}
+
+input.submit {
+    color: white;
+    background-color: #31D47D;
+    float: right;
+    width: 30%;
+    padding: 10px;
+    border-radius: 3px;
+}

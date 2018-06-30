@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mountain Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+<main>
+    <h1>
+        Mountain Form
+    </h1>
+    <form action="#">
+        <div class="form-field">
+            <div class="form-label">
+                <span class="required">*</span>
+                <label for="username">Name:</label>
+            </div>
+            <div class="form-input">
+                <span class="icon"><i class="fa fa-user-o" aria-hidden="true"></i></span>
+                <input id="username" type="text" name="username" placeholder="Andrew" required="required">
+            </div>
+        </div>
+        <div class="form-field">
+            <div class="form-label">
+                <span class="required">*</span>
+                <label for="email">Email:</label>
+            </div>
+            <div class="form-input">
+                <span class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                <input id="email" type="email" name="email" placeholder="andrew@email.com" required="required">
+            </div>
+        </div>
+        <div class="form-field">
+            <div class="form-label">
+                <label for="phone-number">Phone number:</label>
+            </div>
+            <div class="form-input">
+                <span class="icon"><i class="fa fa-mobile" aria-hidden="true"></i></span>
+                <input id="phone-number" type="number" name="phone-number" placeholder="123 456 789">
+            </div>
+        </div>
+        <div class="form-field">
+            <div class="form-label">
+                <span class="required">*</span>
+                <label for="password">Password <span class="description">(minimum 6 characters)</span>:</label>
+            </div>
+            <div class="form-input">
+                <span class="icon"><i class="fa fa-lock" aria-hidden="true"></i></span>
+                <input id="password" type="password" name="password" placeholder="********" required="required">
+            </div>
+        </div>
+        <input type="submit" class="submit" value="Sign up">
+    </form>
+</main>
+</body>
+</html>
