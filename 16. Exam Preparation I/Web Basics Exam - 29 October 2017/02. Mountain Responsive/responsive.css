@@ -1,0 +1,111 @@
+@media all and (max-width: 480px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    body > main > section.best-place > div.info > p.headings {
+        margin-top: 30px;
+        width: 80%;
+    }
+
+    body > main > section.best-place > div.info > p.paragraph {
+        width: 80%;
+    }
+
+    .about-us {
+        padding: 30px 10px;
+    }
+
+    .about-us h1 {
+        font-weight: bold;
+        font-size: 1.5em;
+        line-height: unset;
+    }
+
+    .about-us p {
+        width: calc(100% - 20px);
+    }
+
+    .menu ul {
+        display: none;
+    }
+
+    .views {
+        display: block;
+    }
+
+    .our-team {
+        flex-flow: column;
+    }
+
+    hr {
+        width: 20%;
+    }
+
+    body > main > section.team-presenting > section > article {
+        width: 65%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    body > main > section.team-presenting > section > article > img {
+        height: auto;
+        width: 100%;
+    }
+
+    body > main > section.best-place > div.views > img {
+        margin: 0;
+        padding: 10px;
+        height: auto;
+        width: 100%;
+    }
+
+    .headings:last-of-type {
+        width: 95%;
+        margin-top: 50px;
+        font-size: 1.3em;
+    }
+
+    .menu span {
+        margin-left: unset;
+        font-weight: bold;
+    }
+
+    .menu span:after {
+        content: '\2630';
+        float: right;
+    }
+
+    body .menu {
+        padding: 40px 20px;
+        height: unset;
+    }
+
+    #second-heading {
+        width: 95%;
+        margin: 0 auto;
+        padding-top: 20px;
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+
+    .best-place {
+        display: inline-block;
+        height: auto;
+    }
+
+    .why-us {
+        flex-direction: column;
+        text-align: center;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .why-us article {
+        width: 100%;
+    }
+
+    .text-container h4 {
+        font-size: 16px;
+    }
+}
