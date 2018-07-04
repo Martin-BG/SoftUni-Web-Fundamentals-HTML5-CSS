@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+@import url('https://use.fontawesome.com/releases/v5.1.0/css/all.css');
+
+body {
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(270deg, rgba(162, 107, 94, 0.1) 0%, rgba(186, 95, 63, 0.76) 100%);
+    margin: 0 auto;
+    padding: 100px;
+    vertical-align: center;
+}
+
+main {
+    display: block;
+}
+
+article > img {
+    width: 100%;
+}
+
+article {
+    text-align: center;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+section {
+    background: white;
+    border-radius: 20px;
+    padding: 20px 0;
+    text-align: center;
+}
+
+form {
+    text-align: left;
+}
+
+section article {
+    width: 45%;
+    display: inline-block;
+    vertical-align: center;
+}
+
+#form-title {
+    font-size: 1.5em;
+    color: #666666;
+}
+article p{
+    font-size: 1em;
+    color: #AAAAAA;
+}
+span.icon {
+    color: #666666;
+    position: absolute;
+    padding: 7px;
+    margin-top: 10px;
+    margin-left: 8px;
+    font-size: 1.3em;
+    width: 46px;
+    height: 35px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#email, #password {
+    width: 100%;
+    border: 1px solid #BCDAE5;
+    padding: 10px 5px 10px 60px;
+    box-sizing: border-box;
+    font-size: 1.2em;
+    color: #666666;
+    background-color: #E6E6E6;
+    margin: 10px 0;
+    border-radius: 50px;
+    outline: none;
+}
+
+.underline {
+    border-bottom: 1px #046bad;
+}
+
+a,
+body > main > section > article:nth-child(2) > form > p{
+    color: #666666;
+}
+
+.form-radio {
+    color: #AAAAAA;
+}
+
+input.submit {
+    color: white;
+    background-color: #8E6B52;
+    /*float: right;*/
+    width: 100%;
+    padding: 10px;
+    border-radius: 50px;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    margin-top: 20px;
+}
+
+input.submit:hover {
+    cursor: pointer;
+    background-color: #5E4736;
+}
+
+.links {
+    font-size: 0.8em;
+}

@@ -1,0 +1,147 @@
+@import url('https://use.fontawesome.com/releases/v5.1.0/css/all.css');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+
+body {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+nav {
+    margin: 0 auto;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    list-style: none;
+    padding: 25px;
+
+}
+
+body > header > nav > ul {
+    margin: 0 auto;
+    padding: 0;
+}
+
+h1 {
+    margin: 0 auto;
+}
+
+li a {
+    color: #E9614B;
+}
+
+a {
+    text-decoration: none;
+}
+
+#top {
+    text-align: center;
+    color: white;
+}
+
+#first {
+    background: red url("img/header.png") no-repeat;
+    background-size: cover;
+}
+
+#first > p {
+    padding-bottom: 80px;
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+#top > article.red > h3 {
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+#top h1 {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+#top hr,
+#middle hr {
+    width: 50px;
+    height: 2px;
+    outline: none;
+    border: none;
+}
+
+.white {
+    background: white;
+}
+
+.red {
+    background: #F05F40;
+}
+
+#top > article.red > p {
+    padding: 0 20%;
+}
+
+.find-button {
+    padding: 10px 50px;
+    border-radius: 30px;
+    background-color: white;
+    margin: 20px auto 0;
+    width: 20%;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #1E2329;
+}
+
+#second {
+    padding-bottom: 30px;
+}
+
+#wrapper-articles {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#middle {
+    text-align: center;
+}
+
+.monkey-type {
+    width: 25%;
+    padding: 20px;
+}
+
+.figure {
+    color: #F05F40;
+    font-size: 3em;
+}
+
+#bottom {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-top: 2px solid #F05F40;
+    border-bottom: 2px solid #F05F40;
+}
+
+#bottom img {
+    width: 100%;
+    height: auto;
+}
+
+.img-container {
+    width: 25%;
+    border: 2px solid #F05F40;
+    margin: 0 auto;
+}
+
+#thanks {
+    text-align: center;
+}
+
+#monkey-uin {
+    color: #F05F40;
+}

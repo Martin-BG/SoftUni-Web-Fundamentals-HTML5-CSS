@@ -1,0 +1,56 @@
+@media all and (max-width: 480px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    html {
+        font-size: 12pt;
+    }
+
+    header > .logo a {
+        font-size: 2.5rem;
+    }
+
+    header > .logo {
+        margin: 0 0 2rem 0;
+    }
+
+    body {
+        padding-top: 4rem;
+        background: #1E1F23 url(images/bg.jpg) no-repeat;
+        background-size: contain;
+    }
+
+    .wrapper > header.special {
+        padding: 2rem 2rem;
+    }
+
+    .wrapper > header h2:after {
+        width: 60%;
+    }
+
+    body > main > section > section.wrapper.style1 > div > p,
+    body > main > section > section:nth-child(3) > div:nth-child(1) > div > p,
+    body > main > section > section:nth-child(3) > div:nth-child(3) > div > p {
+        color: #9B9B9C;
+    }
+
+    .wrapper.style2,
+    .wrapper.style1 .content {
+        padding: 1.5rem;
+    }
+
+    .gallery {
+        display: block;
+    }
+
+    .gallery > *,
+    .spotlight > * {
+        width: 100%;
+    }
+
+    .spotlight .inner {
+        padding: 1.5rem;
+        text-align: center;
+    }
+}
