@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900|Montserrat:300,400,500,600,700,800,900');
+@import url('https://use.fontawesome.com/releases/v5.1.0/css/all.css');
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+* {
+	box-sizing: border-box;
+}
+	
+html -> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+@media only screen and (min-width: 701px) {
+}
+
+// Menu symbol:
+.menu span:after {
+	content: '\2630';
+	float: right;
+}
