@@ -1,4 +1,4 @@
-# Web Fundamentals - HTML5 and CSS
+# Web Fundamentals - HTML and CSS
 
 [**Web Fundamentals** course at SoftUni - May 2018](https://softuni.bg/trainings/1963/web-fundamentals-html-may-2018)
 
